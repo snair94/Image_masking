@@ -3,8 +3,8 @@ Image Masking
 This project is a semantic segmentation web app that allows users to upload a product image, provide a text prompt to identify an item within the image, and apply a solid-colored mask to the segmented region. The user can download the masked image or the binary mask.
 Built using Gradio and the CLIPSeg model by CIDAS.
 ________________________________________Features
-Upload any product image (clothing, cans, shoes, etc.)
-Input a prompt like "shirt", "label", "logo", "bottle" to mask a specific part of the image
+Upload any product image (cup, cans, tshirt, etc.)
+Input a prompt like "shirt", "cup", "can", "bottle" to mask a specific part of the image
 Select any color for the mask using a color picker
 View and download the masked image or the binary mask
 Simple, clean UI powered by Gradio
