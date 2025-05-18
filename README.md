@@ -1,6 +1,5 @@
-
-Image Masking – AI Challenge Brief 2
-
+AI Challenge Brief 2 – Plus Also Studios
+Image Masking 
 This project is a semantic segmentation web app that allows users to upload a product image, provide a text prompt to identify an item within the image, and apply a solid-colored mask to the segmented region. The user can download the masked image or the binary mask.
 Built using Gradio and the CLIPSeg model by CIDAS.
 ________________________________________Features
@@ -20,7 +19,12 @@ ________________________________________Setup Instructions
 2. Create a Python Virtual Environment (Optional but Recommended)
 3. Install Dependencies
 pip install -r requirements.txt
-Gradio will automatically launch the app in your browser at http://localhost:7860.
+
+Run this on hugging-face -
+Open the displayed URL in your browser. (CLIPSeg Image Masking)
+This will start a local Gradio interface.
+Upload an image, write a prompt, and select the color you want the mask in
+View and download your AI-generated image.
 ________________________________________Dependencies
 All dependencies are listed in requirements.txt. Key packages include:
 transformers
@@ -49,4 +53,4 @@ Add mask transparency controls.
 Add support for multi-label prompts (e.g., "shirt and jeans").
 Export results in .png with alpha channel for design workflows.
 ________________________________________GitHub: snair94/Image_masking: This project is a semantic segmentation web app that allows users to upload a product image, provide a text prompt to identify an item within the image, and apply a solid-colored mask to the segmented region.
-Hugging-face stage link : CLIPSeg Image Masking
+Hugging-face stage link: CLIPSeg Image Masking
